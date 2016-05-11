@@ -3,6 +3,10 @@
 This element is a port of `core-scroll-threshold` to polymer 1.0.  
 You can learn more about it <a href="https://www.polymer-project.org/0.5/docs/elements/core-scroll-threshold.html">here</a>.
 
+Added an extra trigger for backing to middle (either not top or end) (by Homer)
+
+`<polymer-scroll-threshold id="threshold" lower-threshold="10" on-lower-trigger="_loadMore" on-middle-trigger="_backMiddle" fit></polymer-scroll-threshold>` 
+
 ### Info
 `polymer-scroll-threshold` is an utility element that listens for scroll events from a scrollable region and fires events to indicate when the scroller has reached a pre-defined limit, specified in pixels from the upper and lower bounds of the scrollable region.  
   

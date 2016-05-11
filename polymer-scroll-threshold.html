@@ -88,6 +88,20 @@
 				notify: true
 			},
 
+			/**
+			* Read-only value that tracks the triggered state of the enter/re-enter middle
+			*
+			* @attribute middleTriggered
+			* @type boolean
+			* @default false
+			*/
+			middleTriggered: {
+				type: Boolean, 
+				value: false,
+				readOnly: true,
+				notify: true
+			},
+
 			_boundScrollHandler: {type: Object, value: null},
 		},
 
@@ -158,6 +172,11 @@
 					this.lowerTriggered = true;
 					this.fire('lower-trigger');
 				}
+			}
+
+			if (!this.lowerTriggered && !this.upperTriggered) {
+				this.middleTriggered = true;
+				this.fire('middle-trigger');
 			}
 		},
 
