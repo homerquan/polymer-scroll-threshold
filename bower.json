@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Scroll thresold",
   "authors": [
-    "Mazzarolo Matteo <mazzarolomatteo@gmail.com>"
+    "Mazzarolo Matteo <mazzarolomatteo@gmail.com>",
+    "Homer Quan <homerquan@gmail.com>"
   ],
   "keywords": [
     "web-components",
@@ -21,10 +22,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Mazzaaaaa/polymer-scroll-threshold.git"
+    "url": "git://github.com/homerquan/polymer-scroll-threshold.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/Mazzaaaaa/polymer-scroll-threshold",
+  "homepage": "https://github.com/homerquan/polymer-scroll-threshold",
   "ignore": [
     "**/.*",
     "node_modules",
