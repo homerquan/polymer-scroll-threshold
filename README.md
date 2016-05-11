@@ -16,7 +16,7 @@ Once a threshold has been reached, a `lower-trigger` or `upper-trigger` event wi
 
 ### Install  
 - Install it with bower:   
-`bower install homerquan/polymer-scroll-threshold`
+`bower install polymer-scroll-threshold-extra`
   
 - Import the element:  
 `<link rel="import" href="../bower_components/polymer-scroll-threshold/polymer-scroll-threshold.html">`
